@@ -125,7 +125,7 @@ class Processor
 	public function charge($creditCard)
 	{
 		if (strlen($creditCard->getNumber()) !== 16) {
-			throw new Exception('Credit card has been DECLINED! jk it is not right');
+			throw new Exception("Credit card has been DECLINED! jk it's not right");
 		}
 	}
 }
